@@ -88,7 +88,7 @@ export default (
   win = new BrowserWindow(browserOptions);
 
   win.on("close", saveState);
-  win.setAlwaysOnTop(false, "normal");
+  win.setAlwaysOnTop(true, "normal");
 
   return win;
 };
