@@ -26,10 +26,16 @@ const Main = () => {
 
   return (
     <>
-      <input type="file" onChange={handleFileChange} />
-      {filename && content && (
-        <ViewNote filename={filename} content={content} />
-      )}
+      <div className="fixed w-full z-20 top-0 left-0 pt-3 mt-3">
+        <div className="flex flex-row justify-center">
+          <input type="file" onChange={handleFileChange} />
+        </div>
+      </div>
+      <div className="mt-2 pt-6">
+        {filename && content && (
+          <ViewNote filename={filename} content={content} />
+        )}
+      </div>
     </>
   );
 };
