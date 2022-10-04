@@ -10,7 +10,6 @@ const ViewNote: React.FC<ViewNoteProps> = ({ filename, content }) => {
 
   return (
     <div>
-      <h1>{filename}</h1>
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={{
