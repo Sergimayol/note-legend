@@ -25,12 +25,12 @@ const Main = () => {
   };
 
   return (
-    <div>
+    <>
       <input type="file" onChange={handleFileChange} />
       {filename && content && (
         <ViewNote filename={filename} content={content} />
       )}
-    </div>
+    </>
   );
 };
 
