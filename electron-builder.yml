@@ -1,5 +1,5 @@
-appId: com.example.appnate
-productName: nextron-ts-template
+appId: com.example.notelengend
+productName: note-lengend
 copyright: Copyright © 2022 Sergi Mayol
 directories:
   output: dist
