@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "nextron-typescript-template",
-  "description": "Nextron (electron + nextjs) typescript template",
+  "name": "note-legend",
+  "description": "Desktop app to have cheat sheet written in markdown.",
   "version": "1.0.0",
   "author": "Sergi Mayol",
   "main": "app/background.js",
