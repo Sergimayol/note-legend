@@ -20,6 +20,7 @@
     "electron-store": "8.1.0",
     "react-markdown": "8.0.3",
     "react-syntax-highlighter": "15.5.0",
+    "rehype-raw": "6.1.1",
     "remark-gfm": "3.0.1"
   },
   "devDependencies": {
